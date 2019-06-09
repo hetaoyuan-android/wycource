@@ -11,13 +11,10 @@ import butterknife.BindView;
 /**
  * Created by anson on 2018/11/18.
  */
-@ViewInject(mainlayoutid = R.layout.fragment_others)
+@ViewInject(mainlayoutid = R.layout.fragment_hangzhou)
 public class ShenZhenFragment extends BaseFragment{
-    @BindView(R.id.tv_position)
-    TextView tvPosition;
 
     @Override
-    public void afterBindView() {
-        tvPosition.setText("深圳");
+    public void afterBindView(){
     }
 }
