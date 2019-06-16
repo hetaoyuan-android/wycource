@@ -39,7 +39,6 @@ public class ZhiHuFragment extends BaseFragment implements IShanghaiDetailContra
     @Override
     public void onDestroyView() {
         super.onDestroyView();
-        unbinder.unbind();
     }
 
     @Override
